@@ -1,0 +1,16 @@
+﻿@model CategoryEditVM
+
+
+<div class="card-style mb-30" style="    width: 30%;
+    margin: 0 auto;
+    margin-top: 13%;">
+    <form asp-action="edit" method="post">
+        <h6 class="mb-25">Create Caregory</h6>
+        <div class="input-style-1">
+            <label>Name</label>
+            <input asp-for="Name" type="text" placeholder="Category Name" />
+            <span class="text-danger" asp-validation-for="Name"></span>
+        </div>
+        <button class="btn btn-success" type="submit">Edit</button>
+    </form>
+</div>
