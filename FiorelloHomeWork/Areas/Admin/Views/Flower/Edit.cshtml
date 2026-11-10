@@ -1,0 +1,26 @@
+﻿@model FlowerEditVM
+
+<div class="card-style mb-30" style="    width: 30%;
+    margin: 0 auto;
+    margin-top: 13%;">
+    <form asp-action="edit" method="post">
+        <h6 class="mb-25">Create Flower</h6>
+        <div class="input-style-1">
+            <label>Name</label>
+            <input asp-for="Name" type="text" placeholder="Flower Name" />
+        </div>
+        <div class="input-style-1">
+            <label>Description</label>
+            <input asp-for="Description" type="text" placeholder="Flower Description" />
+        </div>
+        <div class="input-style-1">
+            <label>Price</label>
+            <input asp-for="Price" type="text" placeholder="Flower Price" />
+        </div>
+        <div class="input-style-1">
+            <label>Category</label>
+            <input asp-for="CategoryId" type="text" placeholder="Flower Category" />
+        </div>
+        <button class="btn btn-success" type="submit">Create</button>
+    </form>
+</div>

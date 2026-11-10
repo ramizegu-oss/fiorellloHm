@@ -1,0 +1,49 @@
+﻿@model IEnumerable<FlowerUIVM>
+
+<div style="text-align: center; margin-top: 15pc;     display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 6pc;">
+    <h1>Flowers</h1>
+    <a asp-action="create" class="btn btn-success" style="    width: 15%;
+    margin: 0 auto;">Create</a>
+    <table class="table" style="    width: 80%;
+        margin-left: 19pc;">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Price</th>
+                <th>Category</th>
+                <th>Operatons</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Name</td>
+                    <td>@item.Description</td>
+                    <td>@item.Price</td>
+                    <td>@item.Category</td>
+                    <td>
+                        <div style="    display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 30px;">
+                            <form method="post" asp-action="delete" asp-route-id="@item.Id">
+                                <button class="btn btn-danger">Delete</button>
+                            </form>
+                            <a class="btn btn-outline-secondary" asp-action="edit" asp-route-id="@item.Id">Edit</a>
+                            <a class="btn btn-info" asp-action="info" asp-route-id="@item.Id">Info</a>
+                        </div>
+
+                    
+                    </td>
+                </tr>
+            }
+           
+            
+        </tbody>
+    </table>
+</div>

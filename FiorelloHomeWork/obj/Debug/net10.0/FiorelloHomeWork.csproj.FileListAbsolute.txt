@@ -213,3 +213,4 @@ C:\Users\Asus\Desktop\PA502\Backend\AspNet\FiorelloHomeWork\FiorelloHomeWork\obj
 C:\Users\Asus\Desktop\PA502\Backend\AspNet\FiorelloHomeWork\FiorelloHomeWork\obj\Debug\net10.0\compressed\n3rp8wnypv-{0}-3yvn6580z7-3yvn6580z7.gz
 C:\Users\Asus\Desktop\PA502\Backend\AspNet\FiorelloHomeWork\FiorelloHomeWork\obj\Debug\net10.0\compressed\i4w9z3aqts-{0}-bja8pgfgxp-bja8pgfgxp.gz
 C:\Users\Asus\Desktop\PA502\Backend\AspNet\FiorelloHomeWork\FiorelloHomeWork\obj\Debug\net10.0\compressed\49enyl2smn-{0}-jumbpwbvb2-jumbpwbvb2.gz
+C:\Users\Asus\Desktop\PA502\Backend\AspNet\FiorelloHomeWork\FiorelloHomeWork\obj\Debug\net10.0\FiorelloHomeWork.sourcelink.json
